@@ -1,0 +1,14 @@
+{
+  "name": "mock-interview-booking-system",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Mock Interview Booking System with Role-based Access and Glassmorphic Tech UI",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "dev": "node start-dev.js"
+  },
+  "keywords": ["mern", "mock-interview", "glassmorphism", "bootstrap", "react"],
+  "author": "Antigravity",
+  "license": "ISC"
+}
